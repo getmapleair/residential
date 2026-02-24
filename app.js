@@ -118,9 +118,20 @@ document.addEventListener('click', (e) => {
 })();
 
 /* --------------------------------------------------------------------------
-   5. Quantity Selector
+   5. Hero video tuning — slower playback for smoother motion
    -------------------------------------------------------------------------- */
-const UNIT_PRICE = 799; // SWAP: update when real price is set
+(function initHeroVideo() {
+  const heroVideo = document.querySelector('.hero__bg-image video');
+  if (!heroVideo) return;
+  const setSpeed = () => { heroVideo.playbackRate = 0.72; };
+  heroVideo.addEventListener('loadedmetadata', setSpeed, { once: true });
+  setSpeed();
+})();
+
+/* --------------------------------------------------------------------------
+   6. Quantity Selector
+   -------------------------------------------------------------------------- */
+const UNIT_PRICE = 1200; // SWAP: update when real price is set
 
 (function initQty() {
   const inp  = $('#hvac-qty');
@@ -157,7 +168,7 @@ const UNIT_PRICE = 799; // SWAP: update when real price is set
 })();
 
 /* --------------------------------------------------------------------------
-   6. FAQ Accordion
+   7. FAQ Accordion
    -------------------------------------------------------------------------- */
 (function initFaq() {
   $$('.faq-item').forEach(item => {
@@ -176,7 +187,7 @@ const UNIT_PRICE = 799; // SWAP: update when real price is set
 })();
 
 /* --------------------------------------------------------------------------
-   7. Checkout Modal — open/close/focus trap
+   8. Checkout Modal — open/close/focus trap
    -------------------------------------------------------------------------- */
 const overlay  = $('#checkout-modal');
 const modalBox = $('#modal-box');
@@ -214,7 +225,7 @@ document.addEventListener('keydown', (e) => {
 });
 
 /* --------------------------------------------------------------------------
-   8. Multi-step checkout
+   9. Multi-step checkout
    -------------------------------------------------------------------------- */
 let currentStep = 1;
 
@@ -245,7 +256,7 @@ $('#step3-next')?.addEventListener('click', () => {
 });
 
 /* --------------------------------------------------------------------------
-   9. Form Validation
+   10. Form Validation
    -------------------------------------------------------------------------- */
 function setFieldError(fgId, hasError) {
   const g = document.getElementById(fgId); if (!g) return;
