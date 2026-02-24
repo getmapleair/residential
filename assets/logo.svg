@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 44" fill="none">
+  <circle cx="22" cy="22" r="18" fill="#e4ede8"/>
+  <path d="M12 29V15h2.4l6.6 8.1 6.6-8.1H30v14h-2.3v-9.3l-5.7 7h-2l-5.7-7V29H12z" fill="#3d6b50"/>
+  <text
+    x="52" y="28"
+    font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif"
+    font-size="18"
+    font-weight="600"
+    fill="#111827"
+    letter-spacing="3"
+  >MAPLE AIR</text>
+</svg>
