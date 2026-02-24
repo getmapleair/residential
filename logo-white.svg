@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 44" fill="none">
+  <!--
+    Maple Air — Wordmark Logo (white/reversed version for dark backgrounds)
+    Use in footer, dark hero overlays, dark section headers.
+    SWAP: Replace with final brand wordmark from design team.
+  -->
+
+  <!-- MAPLE — white -->
+  <text
+    x="0" y="32"
+    font-family="Fraunces, Georgia, 'Times New Roman', serif"
+    font-size="30"
+    font-weight="500"
+    fill="#ffffff"
+    fill-opacity="0.88"
+    letter-spacing="-0.5"
+  >MAPLE</text>
+
+  <!-- Separator -->
+  <line x1="143" y1="8" x2="143" y2="36" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- AIR — sage green -->
+  <text
+    x="152" y="32"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="20"
+    font-weight="300"
+    fill="#73a887"
+    letter-spacing="7"
+  >AIR</text>
+</svg>
