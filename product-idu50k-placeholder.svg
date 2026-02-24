@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <!--
+    SWAP: Replace this entire file with the real product photo.
+    File to use: product-idu50k.jpg
+    The IDU 50K is a compact black box unit (~6"×6"×4").
+    Photograph on a clean white or dark background, well-lit, no harsh shadows.
+    Recommended size: 1200×800px JPG at 90% quality.
+  -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2535"/>
+      <stop offset="100%" stop-color="#0f1923"/>
+    </linearGradient>
+    <linearGradient id="device" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a3340"/>
+      <stop offset="100%" stop-color="#1a2535"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#bg)"/>
+
+  <!-- Device body -->
+  <rect x="190" y="100" width="220" height="180" rx="12" fill="url(#device)" stroke="#3a4a5a" stroke-width="1.5"/>
+
+  <!-- Top face (3D effect) -->
+  <path d="M190 100 L230 68 L450 68 L410 100 Z" fill="#2d3d50" stroke="#3a4a5a" stroke-width="1"/>
+
+  <!-- Right face (3D effect) -->
+  <path d="M410 100 L450 68 L450 248 L410 280 Z" fill="#1e2d3d" stroke="#3a4a5a" stroke-width="1"/>
+
+  <!-- Logo mark on device -->
+  <circle cx="300" cy="180" r="28" stroke="#3d6b50" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <circle cx="300" cy="180" r="8" fill="#3d6b50" opacity="0.4"/>
+
+  <!-- Status LED -->
+  <circle cx="346" cy="138" r="4" fill="#73a887" opacity="0.9"/>
+  <circle cx="346" cy="138" r="7" fill="#73a887" opacity="0.15"/>
+
+  <!-- Vents / grille lines -->
+  <line x1="222" y1="230" x2="378" y2="230" stroke="#3a4a5a" stroke-width="1"/>
+  <line x1="222" y1="240" x2="378" y2="240" stroke="#3a4a5a" stroke-width="1"/>
+  <line x1="222" y1="250" x2="378" y2="250" stroke="#3a4a5a" stroke-width="1"/>
+  <line x1="222" y1="260" x2="378" y2="260" stroke="#3a4a5a" stroke-width="1"/>
+
+  <!-- Model label -->
+  <text x="300" y="150" font-family="Inter,sans-serif" font-size="9" fill="rgba(255,255,255,0.25)" text-anchor="middle" letter-spacing="3">IDU 50K</text>
+
+  <!-- Ground shadow -->
+  <ellipse cx="300" cy="310" rx="110" ry="14" fill="black" opacity="0.25"/>
+
+  <!-- Placeholder label -->
+  <text x="300" y="368" font-family="Inter,sans-serif" font-size="12" fill="rgba(255,255,255,0.3)" text-anchor="middle">
+    [ SWAP: /assets/product-idu50k.jpg — Maple Air IDU 50K product photo ]
+  </text>
+</svg>

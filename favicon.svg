@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!--
+    Maple Air — Favicon / App Icon
+    "MA" monogram on sage green rounded square.
+    SWAP: Replace with final brand favicon (also export as favicon.ico at 16×16, 32×32, 48×48).
+  -->
+
+  <!-- Rounded square background -->
+  <rect width="32" height="32" rx="7" fill="#3d6b50"/>
+
+  <!-- M -->
+  <text
+    x="2" y="23"
+    font-family="Fraunces, Georgia, serif"
+    font-size="15"
+    font-weight="500"
+    fill="white"
+    letter-spacing="-0.5"
+  >M</text>
+
+  <!-- A — slightly lighter, sans feel -->
+  <text
+    x="15" y="23"
+    font-family="Inter, Helvetica, sans-serif"
+    font-size="13"
+    font-weight="300"
+    fill="rgba(255,255,255,0.82)"
+    letter-spacing="0.5"
+  >A</text>
+</svg>

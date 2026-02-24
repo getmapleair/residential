@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" fill="none">
+  <!-- SWAP: Replace with real lifestyle photography — bright, airy interior, natural light, family present -->
+  <!-- Recommended: 1200×960px JPG, sage/cream palette, mom or family in a clean home environment -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0f5f2"/>
+      <stop offset="100%" stop-color="#e4ede8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="640" fill="url(#bg)"/>
+  <rect x="520" y="0" width="200" height="380" fill="white" opacity="0.45"/>
+  <rect x="0" y="500" width="800" height="140" fill="#d6cfc3" opacity="0.35"/>
+  <rect x="90" y="392" width="340" height="110" rx="14" fill="#c5cecc" opacity="0.65"/>
+  <rect x="78" y="370" width="66" height="132" rx="10" fill="#b4c2be" opacity="0.65"/>
+  <rect x="392" y="370" width="66" height="132" rx="10" fill="#b4c2be" opacity="0.65"/>
+  <rect x="104" y="354" width="140" height="52" rx="8" fill="#b8c5c0" opacity="0.58"/>
+  <rect x="256" y="354" width="140" height="52" rx="8" fill="#b8c5c0" opacity="0.58"/>
+  <rect x="160" y="462" width="200" height="52" rx="6" fill="#c2b6a4" opacity="0.45"/>
+  <rect x="520" y="398" width="16" height="78" rx="4" fill="#8b7355" opacity="0.45"/>
+  <ellipse cx="528" cy="376" rx="46" ry="56" fill="#4a7c59" opacity="0.26"/>
+  <ellipse cx="500" cy="396" rx="30" ry="40" fill="#3d6b50" opacity="0.20"/>
+  <rect x="540" y="40" width="200" height="300" rx="4" fill="none" stroke="#b8c4be" stroke-width="7"/>
+  <line x1="640" y1="40" x2="640" y2="340" stroke="#b8c4be" stroke-width="3.5"/>
+  <line x1="540" y1="190" x2="740" y2="190" stroke="#b8c4be" stroke-width="3.5"/>
+  <text x="400" y="588" font-family="Inter,sans-serif" font-size="13" fill="#9ca3af" text-anchor="middle" opacity="0.65">[ SWAP: Hero lifestyle photography — /assets/hero-lifestyle.jpg ]</text>
+</svg>
